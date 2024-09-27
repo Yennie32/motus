@@ -1,0 +1,64 @@
+body {
+    background-color: #399918;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#title{
+    font-size: 35px;
+    margin-bottom: 4em;
+}
+.gameArea {
+    display: inline-block;
+    
+    background-color: #ECFFE6;
+    width: 40em;
+    height: 8em;
+    font-size: 35px;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+input [type="text"] {
+    width : 35em;
+    height : 3em;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    font-size: 35px;
+}
+button{
+    width: 4em;
+    height: 2em;
+    font-size: 25px;
+    background-color: #FF7777;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 2px 2px 2px black;
+}
+#try {
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #FF7777;
+    width: 20em;
+    height: 4em;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.well, .miss, .not {
+    display: inline-block;
+    background-color: #FFAAAA;
+    justify-content: space-around;
+    width: 20em;
+    height: 4em;
+    border-radius: 25px;
+}
+

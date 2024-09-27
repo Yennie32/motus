@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Motus</title>
+  </head>
+  <body>
+    <div id="game">
+    <div id="title">
+    <h1>MOTUS</h1>
+  </div>
+    <div class="gameArea">
+    <p>Alors, quel est le mot ?</p>
+     <input id="word" type="text" size="25px" />
+     <br><button type="button" class="guess" onclick="guess()">OK</button>
+    </div>
+    <div class="try"><p id="try"></p></div>
+    <div id="answers">
+     <div class="well"><p id="well"></p></div>
+     <div class="miss"><p id="miss"></p></div>
+     <div class="not"><p id="not"></p></div>
+     <div class="win"><p id="win"></p></div>
+    </div>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+  </div>
+  </body>
+</html>
