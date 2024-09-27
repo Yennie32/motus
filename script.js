@@ -1,8 +1,23 @@
 let base = 'dictionnaire'
 
-// fetch("https://trouve-mot.fr/api/sizemin/6/2")
-//     .then((response) => response.json())
-//     .then((words) => console.log(words))
+// let word;
+// fetch("https://trouve-mot.fr/api/size/5 ", {
+//   method:'GET',
+//   headers: {
+//     'Authorization' : 'Bearer your token',
+//     'Content-Type' : 'application/json'
+//   }
+// })
+//     .then((response) => response.json()) // réponse convertie en JSON
+//     .then((result => {
+//       word = result 
+//      console.log(word) // affichage des données
+//     }) 
+//     .catch(error => console.error("Error", error)))
+
+
+// console.log(word.name)
+
 
 
 function guess() {
